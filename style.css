@@ -25,7 +25,6 @@ body {
 
 .gl-img {
   width: 300px;
-  /* border: 1px solid  red; */
 }
 
 ul {
@@ -59,7 +58,6 @@ button {
   padding: 8px;
   width: 300px;
   cursor: pointer;
-  /* box-shadow: 0 0 10px #6f5fe9; */
   animation: mymove 2s infinite;
 }
 
@@ -80,5 +78,20 @@ button:active {
 @keyframes mymove {
   50% {
     box-shadow: 0px 0px 10px yellow;
+  }
+}
+
+/* MEDIA */
+
+@media only screen and (max-width: 500px) {
+  .gl-img {
+    width: 200px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+  button {
+    padding: 5px;
+    width: 200px;
   }
 }
