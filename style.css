@@ -85,13 +85,13 @@ button:active {
 
 @media only screen and (max-width: 500px) {
   .gl-img {
-    width: 230px;
+    width: 250px;
   }
   h3 {
     font-size: 35px;
   }
   button {
     padding: 6px;
-    width: 230px;
+    width: 250px;
   }
 }
